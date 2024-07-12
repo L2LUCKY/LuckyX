@@ -8,8 +8,8 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from VenomX.utils.database import is_on_off
-from VenomX.utils.formatters import time_to_seconds
+from SomuX.utils.database import is_on_off
+from SomuX.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
@@ -305,7 +305,7 @@ class YouTubeAPI:
                     {
                         "key": "FFmpegExtractAudio",
                         "preferredcodec": "mp3",
-                        "preferredquality": "192",
+                        "preferredquality": "320",
                     }
                 ],
             }
